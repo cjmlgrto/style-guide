@@ -79,16 +79,39 @@ nav {
 
 @media (min-width: 768px) {
   main {
-    width: 640px;
+    width: 680px;
     margin-top: 7rem; } }
 
 #section ul {
   list-style: none;
   margin-left: 0;
-  margin-top: 2rem; }
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap; }
+
+#section li {
+  width: calc(33% - 2rem);
+  margin-right: 2rem; }
 
 #section a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
+
+#section figure {
+  overflow: hidden;
+  position: relative;
+  padding-top: calc(100%);
+  background-color: #888; }
+
+#section img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  position: absolute; }
 
 #section h3 {
+  margin-top: 0;
   font-weight: 500; }
