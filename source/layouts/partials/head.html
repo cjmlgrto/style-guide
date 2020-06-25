@@ -8,3 +8,7 @@
 <link rel="mask-icon" href="{{ .Site.BaseURL }}/images/icon.svg">
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/icon.svg">
 <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/images/icon.svg">
+
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}?v=18-06-2020" integrity="{{ $style.Data.Integrity }}">

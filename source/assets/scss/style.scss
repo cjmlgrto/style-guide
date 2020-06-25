@@ -1,0 +1,74 @@
+// ------------------------------------------------------------
+// Global Styles
+// ------------------------------------------------------------
+
+@import 'theme';
+
+// Base
+// ------------------------------------------------------------
+
+:root {
+    font-size: $font--size;
+    line-height: $font--height;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li,
+h1, h2, h3,
+img, video,
+figure, embed,
+p, blockquote, pre {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+// Typography
+// ------------------------------------------------------------
+
+html {
+    color: $color--content;
+    background-color: $color--background;
+
+	font-family: $font--family;
+	line-height: $font--height;
+
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2, h3 {
+    font-size: 1.5em;
+}
+
+* + h1, * + h2, * + h3 {
+	margin-top: 2em;
+}
+
+h1 + h2, h2 + h3 {
+	margin-top: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: $color--links;
+}
+
+// Layout
+// ------------------------------------------------------------
