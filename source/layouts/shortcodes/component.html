@@ -1,0 +1,15 @@
+<div class="component">
+    <div class="type">
+        <h4>iOS</h4>
+        <figure>
+            {{ with .Get "ios" }}<img src="{{ . }}" alt="iOS variant">{{ end }}
+        </figure>
+    </div>
+    <div class="type">
+        <h4>Android</h4>
+        <figure>
+            {{ with .Get "android" }}<img src="{{ . }}" alt="Android variant">{{ end }}
+        </figure>
+    </div>
+</div>
+

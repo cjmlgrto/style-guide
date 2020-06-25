@@ -45,6 +45,28 @@ a {
 main ol, main ul {
   margin-left: 1rem; }
 
+th, td {
+  padding-right: 1rem;
+  padding-bottom: 1rem; }
+
+hr {
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 1px;
+  background-color: rgba(102, 102, 102, 0.25); }
+
+figure img {
+  margin-bottom: 0; }
+
+figure figcaption {
+  font-size: 0.875rem;
+  color: #666; }
+
+main figure, main table {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 body {
   max-width: 1000px;
   margin-left: auto;
@@ -115,3 +137,27 @@ nav {
 #section h3 {
   margin-top: 0;
   font-weight: 500; }
+
+.color {
+  text-indent: -9999rem;
+  width: 4rem;
+  height: 4rem; }
+
+.component {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between; }
+  .component .type {
+    width: calc(50% - 1rem); }
+  .component h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500; }
+  .component figure {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.1); }
+  .component img {
+    transform: scale(0.5);
+    margin-bottom: -0.5rem; }

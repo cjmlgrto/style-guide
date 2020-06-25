@@ -7,5 +7,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Heading A | Heading B | Heading C |
 | --- | --- | --- |
-| {{< color "#1C37BC" >}} | Item | Item |
-| {{< color "#1C37BC" >}} | Item | Item |
+| {{< color "#888" >}} | Item | Item |
+| {{< color "#888" >}} | Item | Item |
