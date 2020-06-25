@@ -221,11 +221,9 @@ main {
 .component {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-between;
 
     .type {
-        width: calc(50% - 1rem);
+        margin-bottom: 2rem;
     }
 
     h4 {
@@ -243,5 +241,15 @@ main {
     img {
         transform: scale(0.5);
         margin-bottom: -0.5rem;
+    }
+
+    @media (min-width: $width--breakpoint) {
+        display: flex;
+        justify-content: space-between;
+
+        .type {
+            width: calc(50% - 1rem);
+            margin-bottom: 0;
+        }
     }
 }
