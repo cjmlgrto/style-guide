@@ -7,7 +7,12 @@
     <ul>
         {{ range .Paginator.Pages }}
         <li>
-            <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+            <a href="{{ .Permalink }}">
+                <figure class="preview">
+                    <img src="{{ .Permalink }}{{ .Params.Image }}" alt="{{ .Title }}" />
+                </figure>
+                <h3>{{ .Title }}</h3>
+            </a>
         </li>
         {{ end }}
     </ul>
