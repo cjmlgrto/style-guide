@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main id="section">
     <h1>{{ .Title }}</h1>
 
     {{ .Content }}
@@ -7,7 +7,7 @@
     <ul>
         {{ range .Paginator.Pages }}
         <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
         </li>
         {{ end }}
     </ul>

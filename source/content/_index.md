@@ -1,5 +1,5 @@
 ---
-title: Brand and Design Guide
+title: Acme Co Design Guide
 layout: home
 ---
 
