@@ -1,8 +1,8 @@
 # Site Configuration
 
-title: Acme, Inc.
+title: Acme Co
 baseUrl: https://localhost:8080
 
 params:
-  author: Acme, Inc.
+  author: Acme Co
   description: Company design style guide

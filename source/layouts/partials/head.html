@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<title>{{ .Site.Title }}</title>
+<title>{{ .Site.Title }}{{ with .Params.Title }} — {{ . }}{{ end }}</title>
 
 <meta name="author" content="{{ .Site.Params.Author }}">
 <meta name="description" content="{{ .Site.Params.Description }}">

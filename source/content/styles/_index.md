@@ -1,6 +1,5 @@
 ---
-title: Brand and Design Guide
-layout: home
+title: Brand and Styles
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
