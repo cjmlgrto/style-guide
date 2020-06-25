@@ -70,6 +70,35 @@ main ol, main ul {
     margin-left: 1rem;
 }
 
+th, td {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+hr {
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 1px;
+    background-color: rgba($color--content-secondary, 0.25);
+}
+
+figure {
+    img {
+        margin-bottom: 0;
+    }
+
+    figcaption {
+        font-size: 0.875rem;
+        color: $color--content-secondary;
+    }
+}
+
+main figure, main table {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 // Layout
 // ------------------------------------------------------------
 
@@ -178,4 +207,13 @@ main {
         margin-top: 0;
         font-weight: 500;
     }
+}
+
+// Shortcode Styles
+// ------------------------------------------------------------
+
+.color {
+    text-indent: -9999rem;
+    width: 4rem;
+    height: 4rem;
 }

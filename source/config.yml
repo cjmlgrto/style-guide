@@ -6,3 +6,12 @@ baseUrl: https://cjmlgrto.github.io/style-guide/
 params:
   author: Acme Co
   description: Company design style guide
+
+  markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
