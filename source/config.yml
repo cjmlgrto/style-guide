@@ -1,7 +1,7 @@
 # Site Configuration
 
 title: Acme Co
-baseUrl: https://localhost:8080
+baseUrl: https://cjmlgrto.github.io/style-guide/
 
 params:
   author: Acme Co

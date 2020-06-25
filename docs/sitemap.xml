@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://localhost:8080/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/</loc>
   </url>
   
   <url>
-    <loc>https://localhost:8080/styles/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/styles/</loc>
   </url>
   
   <url>
-    <loc>https://localhost:8080/components/button/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/components/button/</loc>
   </url>
   
   <url>
-    <loc>https://localhost:8080/categories/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://localhost:8080/styles/colors/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/styles/colors/</loc>
   </url>
   
   <url>
-    <loc>https://localhost:8080/components/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/components/</loc>
   </url>
   
   <url>
-    <loc>https://localhost:8080/tags/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://localhost:8080/styles/type/</loc>
+    <loc>https://cjmlgrto.github.io/style-guide/styles/type/</loc>
   </url>
   
 </urlset>
